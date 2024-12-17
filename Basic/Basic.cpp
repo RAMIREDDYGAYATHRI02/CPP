@@ -8,7 +8,7 @@ int main() {
     cin >> name;
     cout << "Enter Number: ";
     cin >> number;
-    cout << "Hello hey " << name <<" your favourite number is "<<number;
+    cout << "Hello heyy " << name <<" your favourite number is "<<number;
     return 0;
 }
 
