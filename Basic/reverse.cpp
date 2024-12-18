@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
     int remainder,reverse_number=0,n;
-    cout<<"Enter a number:";
+    cout<<"Enter a number : ";
     cin>>n;
     while(n!=0)
     {
@@ -10,5 +10,5 @@ int main(){
         reverse_number=reverse_number*10+remainder;
         n=n/10;
     }
-    cout<<"The reverse number is :"<<reverse_number;
+    cout<<"The reverse number is : "<<reverse_number;
 }
