@@ -30,7 +30,7 @@ int main(){
     cin>>t;
     for(int i=0;i<t;i++){
         int n;
-        cout<<"Enter how many starts? :";
+        cout<<"Enter how many starts? : ";
         cin>>n;
         print3(n);
     }
