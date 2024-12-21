@@ -16,6 +16,14 @@ void print2(int n){
         cout<<endl;
     }
 }
+void print3(int n){
+    for(int i=0;i<n;i++){
+        for(int j=0;j<=i;j++){
+            cout<<"* ";
+        }
+        cout<<endl;
+    }
+}
 int main(){
     int t;
     cout<<"Enter how many times you want to enter? :";
