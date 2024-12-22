@@ -24,6 +24,14 @@ void print3(int n){
         cout<<endl;
     }
 }
+void print4(int n){
+    for(int i=0;i<n;i++){
+        for(int j=0;j<=i;j++){
+            cout<<i;
+        }
+        cout<<endl;
+    }
+}
 int main(){
     int t;
     cout<<"Enter how many times you want to enter? :";
@@ -34,7 +42,7 @@ int main(){
         cin>>n;
         print1(n);
         cout<<endl;
-        print2(n);
+        print4(n);
     }
     return 0;
 }
