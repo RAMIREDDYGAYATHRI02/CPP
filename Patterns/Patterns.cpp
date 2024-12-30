@@ -48,6 +48,14 @@ void print6(int n){
         cout<<endl;
     }
 }
+void print7(int n){
+    for(int i=0;i<n;i++){
+        for(int j=1;j<n-i;j++){
+            cout<<i<<""<<j<<" ";
+        }
+        cout<<endl;
+    }
+}
 int main(){
     int t;
     cout<<"Enter how many times you want to enter? :";
@@ -67,6 +75,8 @@ int main(){
         print5(n);
         cout<<endl;
         print6(n);
+        cout<<endl;
+        print7(n);
     }
     return 0;
 }
