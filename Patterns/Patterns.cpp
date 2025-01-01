@@ -87,6 +87,8 @@ int main(){
         print7(n);
         cout<<endl;
         print8(n);
+        cout<<endl;
+        print8(n);
     }
     return 0;
 }
