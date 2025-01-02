@@ -20,4 +20,28 @@ for(let i=1;i<=10;i++){
     
 }
 
+let N=556;
+let sum=0;
+let product=1;
+while(N>0){
+   let digit=N%10;
+   sum=sum+digit;
+   product=product*digit;
+   N=Math.floor(N/10);
+}
+console.log(sum+" "+product)
+
+
+
+let fact=1;
+let Num=6;
+
+while(Num>0)
+{
+    fact=fact*Num;
+    Num--;
+}
+console.log(fact)
+
+
 
