@@ -45,3 +45,15 @@ console.log(fact)
 
 
 
+let details={
+    "name":"gayathri",
+    "age":"21",
+    "weight":"50kg",
+    "dob":"2-11-2003",
+    "interestedin":"se"
+}
+
+for(let key in details){
+    console.log(key+"->"+details[key])
+}
+
