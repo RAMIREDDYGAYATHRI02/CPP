@@ -54,6 +54,6 @@ let details={
 }
 
 for(let key in details){
-    console.log(key+":"+details[key])
+    console.log(key+"->"+details[key])
 }
 
